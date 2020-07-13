@@ -40,9 +40,13 @@ const Example = () => (
 ```
 #### Props
 
-Property | Default | Description
+Property | Type | Default | Description
 -------- | ------- | -----------
-width | 200 | pixels **required**
+data **(required)** | array | - | Data to be represented by component
+width | int | 200 | Pixel width of component
+height | int | 200 | Pixel height of component
+baseColor | string | '#4095bf' | Starting color for component's gradient. Accepts rgb, hsl, and hex color formats
+
 
 ### BarChart
 ```jsx
