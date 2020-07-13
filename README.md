@@ -40,6 +40,10 @@ const Example = () => (
 ```
 #### Props
 
+Property | Default | Description
+-------- | ------- | -----------
+width | 200 | pixels **required**
+
 ### BarChart
 ```jsx
 const Example = () => (
