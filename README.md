@@ -28,7 +28,7 @@ import { PieChart, BarChart, PieSlice, HorizontalBar, VerticalBar, BulletChart }
 
 ```
 
-### Data Config
+**Data Config**
 
 Each component takes in an array of objects called **data**. Each object must have a **value** property that represents the value of the item in the data set. You can also include other properties if you want to use them in a component's legend or as an overlay on some of the components.
 
