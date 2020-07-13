@@ -26,22 +26,27 @@ import React, { Component } from 'react'
 
 import { PieChart, BarChart, PieSlice, HorizontalBar, VerticalBar, BulletChart } from 'univariate-infographics'
 
-const data = [
-  {
-    value: 1,
-    ...
-  },
-  {
-    value: 2,
-    ...
-  }
-]
-
 ```
 
 Each component takes in an array of objects called **data**. Each object must have a **value** property that represents the value of the item in the data set. You can also include other properties if you want to use them in a component's legend or as an overlay on the components.
 
 ```jsx
+
+// this is all that's required for the components to work
+const data = [
+  {
+    value: 1
+  },
+  {
+    value: 2
+  }
+]
+
+/*
+=== BUT ===
+*/
+
+// you can also add more fields
 const data = [
   {
     value: 3,
