@@ -41,7 +41,7 @@ const Example = () => (
 #### Props
 
 Property | Type | Default | Description
--------- | ------- | -----------
+-------- | ---- | ------- | -----------
 data **(required)** | array | - | Data to be represented by component
 width | int | 200 | Pixel width of component
 height | int | 200 | Pixel height of component
