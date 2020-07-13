@@ -38,6 +38,7 @@ const Example = () => (
    />
 )
 ```
+#### Props
 
 ### BarChart
 ```jsx
