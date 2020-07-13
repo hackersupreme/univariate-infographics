@@ -10,19 +10,94 @@
 npm install --save univariate-infographics
 ```
 
+## Examples
+
+- PieChart
+- BarChart
+- PieSlice
+- HorizontalBar
+- VerticalBar
+- BulletChart
+
 ## Usage
 
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'univariate-infographics'
-import 'univariate-infographics/dist/index.css'
+import { PieChart, BarChart, PieSlice, HorizontalBar, VerticalBar, BulletChart } from 'univariate-infographics'
+```
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
-}
+### PieChart
+```jsx
+const Example = () => (
+  <PieChart
+    width={200}
+    height={200}
+    data={data}
+    ...
+   />
+)
+```
+
+### BarChart
+```jsx
+const Example = () => (
+  <BarChart
+    width={200}
+    height={200}
+    data={data}
+    ...
+   />
+)
+```
+
+### PieSlice
+```jsx
+const Example = () => (
+  <PieSlice
+    width={200}
+    height={200}
+    data={data}
+    slice={0}
+    ...
+   />
+)
+```
+
+### HorizontalBar
+```jsx
+const Example = () => (
+  <HorizontalBar
+    width={200}
+    height={200}
+    data={data}
+    ...
+   />
+)
+```
+
+### VerticalBar
+```jsx
+const Example = () => (
+  <VerticalBar
+    width={200}
+    height={200}
+    data={data}
+    ...
+   />
+)
+```
+
+### BulletChart
+```jsx
+const Example = () => (
+  <BulletChart
+    width={200}
+    height={200}
+    data={data}
+    ...
+   />
+)
 ```
 
 ## License
