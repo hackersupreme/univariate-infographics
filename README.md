@@ -28,6 +28,8 @@ import { PieChart, BarChart, PieSlice, HorizontalBar, VerticalBar, BulletChart }
 
 ```
 
+### Data Config
+
 Each component takes in an array of objects called **data**. Each object must have a **value** property that represents the value of the item in the data set. You can also include other properties if you want to use them in a component's legend or as an overlay on the components.
 
 ```jsx
@@ -68,12 +70,10 @@ const data = [
 
 const data = [
   {
-    value: 1,
-    ...
+    value: 1
   },
   {
-    value: 2,
-    ...
+    value: 2
   }
 ]
 
@@ -99,7 +99,12 @@ donut | boolean | false | Turns the pie chart into a donut chart
 donutColor | string | 'white' | Color of inner donut circle. Accepts any color format
 legend | boolean | false | Includes a legend for the component.
 legendColor | string | '#1d3940' | Text color of legend. Accepts any color format
-legendDataType | string | 'value' | Selects the property of the objects in the data array to display as 
+legendDataType | string | 'value' | Selects the property of the objects in the data array to display in the legend
+orientation | number (0-1) | 0 | Where the start of the piechart is on the circle. eg, 0, 1, 0.25, 0.5, etc
+circleArea | number (0-1) | 1 | What percentage of the circle should the pie chart fill
+gradientDirection | string | null | Set to 'reverse' to reverse the gradient in the component
+style | obj | null | Style object passed to the component
+className | string | null | Class names to be added to the component
 
 ### BarChart
 ```jsx
