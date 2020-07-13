@@ -22,7 +22,7 @@ npm install --save univariate-infographics
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React from 'react'
 
 import { PieChart, BarChart, PieSlice, HorizontalBar, VerticalBar, BulletChart } from 'univariate-infographics'
 
@@ -152,16 +152,46 @@ className | string | null | Class names to be added to the component
 
 ### PieSlice
 ```jsx
+
+const data = [
+  {
+    value: 1
+  },
+  {
+    value: 2
+  }
+]
+
 const Example = () => (
   <PieSlice
-    width={200}
-    height={200}
     data={data}
     slice={0}
-    ...
    />
 )
 ```
+
+#### Props
+
+Property | Type | Default | Description
+-------- | ---- | ------- | -----------
+data **(required)** | array | - | Data to be represented by component
+width | int | 200 | Pixel width of component
+height | int | 200 | Pixel height of component
+baseColor | string | '#4095bf' | Color of slice
+secondaryColor | string | '#e9ecef' | Background color of pie chart
+title | string | null | Title of component
+titleColor | string | '#1d3940' | Text color of title. Accepts any color format
+donut | boolean | false | Turns the pie chart into a donut chart
+donutColor | string | 'white' | Color of inner donut circle. Accepts any color format
+legend | boolean | false | Includes a legend for the component.
+legendColor | string | '#1d3940' | Text color of legend. Accepts any color format
+legendDataType | string | 'value' | Selects the property of the objects in the data array to display in the legend
+orientation | number (0-1) | 0 | Where the start of the piechart is on the circle. eg, 0, 1, 0.25, 0.5, etc
+circleArea | number (0-1) | 1 | What percentage of the circle should the pie chart fill
+gradientDirection | string | null | Set to 'reverse' to reverse the gradient in the component
+style | obj | null | Style object passed to the component
+className | string | null | Class names to be added to the component
+
 
 ### HorizontalBar
 ```jsx
