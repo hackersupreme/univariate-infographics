@@ -12,6 +12,13 @@ npm install --save univariate-infographics
 
 ## Components
 
+- `<PieChart data={data} />`
+- `<PieSlice data={data} />`
+- `<BarChart data={data} />`
+- `<HorizontalBar data={data} />`
+- `<VerticalBar data={data} />`
+- `<BulletChart data={data} />`
+
 ![Pie Chart](/PieChartSmall.PNG)
 
 ![Pie Slice](/PieSliceSmall.PNG)
