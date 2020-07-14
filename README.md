@@ -12,23 +12,13 @@ npm install --save univariate-infographics
 
 ## Examples
 
-- PieChart
-
 ![Pie Chart](/PieChart.PNG)
-
-- BarChart
 
 ![Bar Chart](/BarChart.PNG)
 
-- PieSlice
-
 ![Pie Slice](/PieSlice.PNG)
 
-- HorizontalBar
-
 ![Horizontal Bar](/HorizontalBar.PNG)
-
-- VerticalBar
 
 ![Vertical Bar](/VerticalBar.PNG)
 
@@ -82,8 +72,6 @@ const data = [
 
 ### PieChart
 
-![Pie Chart](/PieChart.PNG)
-
 ```jsx
 
 const data = [
@@ -101,6 +89,8 @@ const Example = () => (
   />
 )
 ```
+
+![Pie Chart](/PieChart.PNG)
 
 #### Props
 
@@ -127,8 +117,6 @@ className | string | null | Class names to be added to the component
 
 ### BarChart
 
-![Bar Chart](/BarChart.PNG)
-
 ```jsx
 
 const data = [
@@ -149,6 +137,8 @@ const Example = () => (
    />
 )
 ```
+
+![Bar Chart](/BarChart.PNG)
 
 #### Props
 
@@ -174,8 +164,6 @@ className | string | null | Class names to be added to the component
 
 ### PieSlice
 
-![Pie Slice](/PieSlice.PNG)
-
 ```jsx
 
 const data = [
@@ -194,6 +182,8 @@ const Example = () => (
    />
 )
 ```
+
+![Pie Slice](/PieSlice.PNG)
 
 #### Props
 
@@ -221,8 +211,6 @@ className | string | null | Class names to be added to the component
 
 ### HorizontalBar
 
-![Horizontal Bar](/HorizontalBar.PNG)
-
 ```jsx
 
 const data = [
@@ -245,6 +233,8 @@ const Example = () => (
    />
 )
 ```
+
+![Horizontal Bar](/HorizontalBar.PNG)
 
 #### Props
 
@@ -269,8 +259,6 @@ className | string | null | Class names to be added to the component
 
 ### VerticalBar
 
-![Vertical Bar](/VerticalBar.PNG)
-
 ```jsx
 
 const data = [
@@ -293,6 +281,8 @@ const Example = () => (
    />
 )
 ```
+
+![Vertical Bar](/VerticalBar.PNG)
 
 #### Props
 
