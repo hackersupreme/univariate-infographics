@@ -5,6 +5,7 @@
 [![NPM](https://img.shields.io/npm/v/univariate-infographics.svg)](https://www.npmjs.com/package/univariate-infographics) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 [github](https://github.com/hackersupreme/univariate-infographics)
+<br />
 [hackersupreme.com](http://hackersupreme.com)
 
 ## Install
