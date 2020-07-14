@@ -6,7 +6,7 @@
 
 [github](https://github.com/hackersupreme/univariate-infographics)
 <br />
-created by [hackersupreme.com](http://hackersupreme.com)
+[hackersupreme.com](http://hackersupreme.com)
 
 ## Install
 
@@ -23,17 +23,7 @@ npm install --save univariate-infographics
 - `<VerticalBar data={data} />`
 - `<BulletChart data={data} />`
 
-![Pie Chart](/PieChartSmall.PNG)
-
-![Pie Slice](/PieSliceSmall.PNG)
-
-![Bar Chart](/BarChartSmall.PNG)
-
-![Horizontal Bar](/HorizontalBarSmall.PNG)
-
-![Vertical Bar](/VerticalBarSmall.PNG)
-
-Bullet Chart
+![All Components](/Components.PNG)
 
 <br />
 
