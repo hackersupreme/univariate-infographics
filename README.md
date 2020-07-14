@@ -14,6 +14,7 @@ npm install --save univariate-infographics
 
 - PieChart
 
+![Pie Chart](/PieChart.PNG)
 
 - BarChart
 - PieSlice
