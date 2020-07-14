@@ -22,7 +22,7 @@ npm install --save univariate-infographics
 - `<HorizontalBar data={data} />`
 - `<VerticalBar data={data} />`
 
-![All Components](/Components.PNG)
+![All Components](/AllComponents.PNG)
 
 <br />
 
