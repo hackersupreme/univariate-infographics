@@ -233,7 +233,7 @@ className | string | null | Class names to be added to the component
 
 #### Examples
 
-[!Bar Chart with Legend](/BarChartLegend.PNG)
+![Bar Chart with Legend](/BarChartLegend.PNG)
 
 <br />
 
