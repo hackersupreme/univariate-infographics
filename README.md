@@ -163,6 +163,7 @@ gradientDirection | string | null | Set to 'reverse' to reverse the gradient in 
 style | obj | null | Style object passed to the component
 className | string | null | Class names to be added to the component
 
+<br />
 
 ### BarChart
 
@@ -211,6 +212,7 @@ gradientDirection | string | null | Set to 'reverse' to reverse the gradient in 
 style | obj | null | Style object passed to the component
 className | string | null | Class names to be added to the component
 
+<br />
 
 ### HorizontalBar
 
@@ -260,6 +262,8 @@ gradientDirection | string | null | Set to 'reverse' to reverse the gradient in 
 style | obj | null | Style object passed to the component
 className | string | null | Class names to be added to the component
 
+<br />
+
 ### VerticalBar
 
 ```jsx
@@ -307,6 +311,8 @@ overlayDataType | string | 'value' | Selects the property of the objects in the 
 gradientDirection | string | null | Set to 'reverse' to reverse the gradient in the component
 style | obj | null | Style object passed to the component
 className | string | null | Class names to be added to the component
+
+<br />
 
 ### BulletChart
 ```jsx
