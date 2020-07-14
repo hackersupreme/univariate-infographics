@@ -147,6 +147,7 @@ Property | Type | Default | Description
 data **(required)** | array | - | Data to be represented by component
 width | number | 200 | Pixel width of component
 height | number | 200 | Pixel height of component
+barWidth | number | 20 | Pixel width of individual bars
 baseColor | string | '#4095bf' | Starting color for component's gradient. Accepts rgb, hsl, and hex color formats
 title | string | null | Title of component
 titleColor | string | '#1d3940' | Text color of title. Accepts any color format
@@ -178,7 +179,6 @@ const data = [
 const Example = () => (
   <PieSlice
     data={data}
-    slice={0}
    />
 )
 ```
@@ -190,7 +190,7 @@ const Example = () => (
 Property | Type | Default | Description
 -------- | ---- | ------- | -----------
 data **(required)** | array | - | Data to be represented by component
-slice **(required)** | number | - | Index of data array that is going to displayed
+slice | number | 0 | Index of data array that is going to displayed
 width | number | 200 | Pixel width of component
 height | number | 200 | Pixel height of component
 baseColor | string | '#4095bf' | Color of slice
