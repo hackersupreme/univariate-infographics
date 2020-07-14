@@ -70,6 +70,8 @@ const data = [
 ]
 ```
 
+<br />
+
 ### PieChart
 
 ```jsx
@@ -114,6 +116,7 @@ gradientDirection | string | null | Set to 'reverse' to reverse the gradient in 
 style | obj | null | Style object passed to the component
 className | string | null | Class names to be added to the component
 
+<br />
 
 ### PieSlice
 
