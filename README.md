@@ -12,15 +12,15 @@ npm install --save univariate-infographics
 
 ## Examples
 
-![Pie Chart](/PieChart.PNG)
+![Pie Chart](/PieChartSmall.PNG)
 
-![Bar Chart](/BarChart.PNG)
+![Bar Chart](/BarChartSmall.PNG)
 
-![Pie Slice](/PieSlice.PNG)
+![Pie Slice](/PieSliceSmall.PNG)
 
-![Horizontal Bar](/HorizontalBar.PNG)
+![Horizontal Bar](/HorizontalBarSmall.PNG)
 
-![Vertical Bar](/VerticalBar.PNG)
+![Vertical Bar](/VerticalBarSmall.PNG)
 
 - BulletChart
 
