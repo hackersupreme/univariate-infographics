@@ -17,9 +17,21 @@ npm install --save univariate-infographics
 ![Pie Chart](/PieChart.PNG)
 
 - BarChart
+
+![Bar Chart](/BarChart.PNG)
+
 - PieSlice
+
+![Pie Slice](/PieSlice.PNG)
+
 - HorizontalBar
+
+![Horizontal Bar](/HorizontalBar.PNG)
+
 - VerticalBar
+
+![Vertical Bar](/VerticalBar.PNG)
+
 - BulletChart
 
 ## Usage
@@ -70,6 +82,8 @@ const data = [
 
 ### PieChart
 
+![Pie Chart](/PieChart.PNG)
+
 ```jsx
 
 const data = [
@@ -112,6 +126,8 @@ className | string | null | Class names to be added to the component
 
 
 ### BarChart
+
+![Bar Chart](/BarChart.PNG)
 
 ```jsx
 
@@ -157,6 +173,9 @@ className | string | null | Class names to be added to the component
 
 
 ### PieSlice
+
+![Pie Slice](/PieSlice.PNG)
+
 ```jsx
 
 const data = [
@@ -201,6 +220,8 @@ className | string | null | Class names to be added to the component
 
 
 ### HorizontalBar
+
+![Horizontal Bar](/HorizontalBar.PNG)
 
 ```jsx
 
@@ -247,6 +268,8 @@ style | obj | null | Style object passed to the component
 className | string | null | Class names to be added to the component
 
 ### VerticalBar
+
+![Vertical Bar](/VerticalBar.PNG)
 
 ```jsx
 
