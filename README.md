@@ -24,6 +24,8 @@ npm install --save univariate-infographics
 
 - BulletChart
 
+<br />
+
 ## Usage
 
 ```jsx
@@ -170,16 +172,17 @@ className | string | null | Class names to be added to the component
 ```jsx
 
 const data = [
-	{
-		value: 1
-	},
-	{
-		value: 4
-	},
-	{
-		value: 2
-	}
+  {
+    value: 1
+  },
+  {
+    value: 4
+  },
+  {
+    value: 2
+  }
 ]
+
 
 const Example = () => (
   <BarChart
@@ -219,15 +222,15 @@ className | string | null | Class names to be added to the component
 ```jsx
 
 const data = [
-	{
-		value: 1
-	},
-	{
-		value: 4
-	},
-	{
-		value: 2
-	}
+  {
+    value: 1
+  },
+  {
+    value: 4
+  },
+  {
+    value: 2
+  }
 ]
 
 const Example = () => (
@@ -269,15 +272,15 @@ className | string | null | Class names to be added to the component
 ```jsx
 
 const data = [
-	{
-		value: 1
-	},
-	{
-		value: 4
-	},
-	{
-		value: 2
-	}
+  {
+    value: 1
+  },
+  {
+    value: 4
+  },
+  {
+    value: 2
+  }
 ]
 
 const Example = () => (
