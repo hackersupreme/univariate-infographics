@@ -78,6 +78,8 @@ const data = [
 
 ![Pie Chart](/PieChart.PNG)
 
+#### How to use
+
 ```jsx
 
 const data = [
@@ -128,6 +130,10 @@ className | string | null | Class names to be added to the component
 
 ### PieSlice
 
+![Pie Slice](/PieSlice.PNG)
+
+#### How to use
+
 ```jsx
 
 const data = [
@@ -145,8 +151,6 @@ const Example = () => (
    />
 )
 ```
-
-![Pie Slice](/PieSlice.PNG)
 
 #### Props
 
@@ -179,6 +183,10 @@ className | string | null | Class names to be added to the component
 
 ### BarChart
 
+![Bar Chart](/BarChart.PNG)
+
+#### How to use
+
 ```jsx
 
 const data = [
@@ -200,8 +208,6 @@ const Example = () => (
    />
 )
 ```
-
-![Bar Chart](/BarChart.PNG)
 
 #### Props
 
@@ -229,6 +235,10 @@ className | string | null | Class names to be added to the component
 
 ### HorizontalBar
 
+![Horizontal Bar](/HorizontalBar.PNG)
+
+#### How to use
+
 ```jsx
 
 const data = [
@@ -251,8 +261,6 @@ const Example = () => (
    />
 )
 ```
-
-![Horizontal Bar](/HorizontalBar.PNG)
 
 #### Props
 
