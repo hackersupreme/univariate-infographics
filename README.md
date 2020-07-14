@@ -76,6 +76,8 @@ const data = [
 
 ### PieChart
 
+![Pie Chart](/PieChart.PNG)
+
 ```jsx
 
 const data = [
@@ -93,8 +95,6 @@ const Example = () => (
   />
 )
 ```
-
-![Pie Chart](/PieChart.PNG)
 
 #### Props
 
@@ -117,6 +117,12 @@ circleArea | number (0-1) | 1 | What percentage of the circle should the pie cha
 gradientDirection | string | null | Set to 'reverse' to reverse the gradient in the component
 style | obj | null | Style object passed to the component
 className | string | null | Class names to be added to the component
+
+#### Examples
+
+![Donut](/Donut.PNG)
+
+![Pie Chart With Legend](/PieChartLegend.PNG)
 
 <br />
 
