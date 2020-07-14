@@ -6,7 +6,7 @@
 
 [github](https://github.com/hackersupreme/univariate-infographics)
 <br />
-[hackersupreme.com](http://hackersupreme.com)
+created by [hackersupreme.com](http://hackersupreme.com)
 
 ## Install
 
