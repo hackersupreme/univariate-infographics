@@ -22,7 +22,7 @@ npm install --save univariate-infographics
 - `<HorizontalBar data={data} />`
 - `<VerticalBar data={data} />`
 
-![All Components](/AllComponents.PNG)
+![All Components](/screenshots/AllComponents.PNG)
 
 <br />
 
@@ -76,7 +76,7 @@ const data = [
 
 ### PieChart
 
-![Pie Chart](/PieChart.PNG)
+![Pie Chart](/screenshots/PieChart.PNG)
 
 #### How to use
 
@@ -122,15 +122,15 @@ className | string | null | Class names to be added to the component
 
 #### Examples
 
-![Donut](/Donut.PNG)
+![Donut](/screenshots/Donut.PNG)
 
-![Pie Chart With Legend](/PieChartLegend.PNG)
+![Pie Chart With Legend](/screenshots/PieChartLegend.PNG)
 
 <br />
 
 ### PieSlice
 
-![Pie Slice](/PieSlice.PNG)
+![Pie Slice](/screenshots/PieSlice.PNG)
 
 #### How to use
 
@@ -177,13 +177,13 @@ className | string | null | Class names to be added to the component
 
 #### Examples
 
-![Pie Slice with Legend](/PieSliceLegend.PNG)
+![Pie Slice with Legend](/screenshots/PieSliceLegend.PNG)
 
 <br />
 
 ### BarChart
 
-![Bar Chart](/BarChart.PNG)
+![Bar Chart](/screenshots/BarChart.PNG)
 
 #### How to use
 
@@ -233,15 +233,15 @@ className | string | null | Class names to be added to the component
 
 #### Examples
 
-![Bar Chart with Legend](/BarChartLegend.PNG)
+![Bar Chart with Legend](/screenshots/BarChartLegend.PNG)
 
-![Bar Chart with Overlay](/BarChartOverlay.PNG)
+![Bar Chart with Overlay](/screenshots/BarChartOverlay.PNG)
 
 <br />
 
 ### HorizontalBar
 
-![Horizontal Bar](/HorizontalBar.PNG)
+![Horizontal Bar](/screenshots/HorizontalBar.PNG)
 
 #### How to use
 
@@ -291,9 +291,9 @@ className | string | null | Class names to be added to the component
 
 #### Examples
 
-![Horizontal Bar with Overlay](/HorizontalBarOverlay.PNG)
+![Horizontal Bar with Overlay](/screenshots/HorizontalBarOverlay.PNG)
 
-![Horizontal Bar with Legend](/HorizontalBarLegend.PNG)
+![Horizontal Bar with Legend](/screenshots/HorizontalBarLegend.PNG)
 
 <br />
 
@@ -322,7 +322,7 @@ const Example = () => (
 )
 ```
 
-![Vertical Bar](/VerticalBar.PNG)
+![Vertical Bar](/screenshots/VerticalBar.PNG)
 
 #### Props
 
@@ -347,9 +347,9 @@ className | string | null | Class names to be added to the component
 
 #### Examples
 
-![Vertical Bar with Legend](/VerticalBarLegend.PNG)
+![Vertical Bar with Legend](/screenshots/VerticalBarLegend.PNG)
 
-![Vertical Bar with Overlay](/VerticalBarOverlay.PNG)
+![Vertical Bar with Overlay](/screenshots/VerticalBarOverlay.PNG)
 
 ## License
 

@@ -1,0 +1,34 @@
+.container {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.list {
+	padding: 0px;
+	list-style: none;
+	width: 100%;
+	position: relative;
+	color: #1d3940;
+}
+
+.listItem {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.label {
+	font-weight: bolder;
+	text-transform: uppercase;
+	font-size: 1em;
+	letter-spacing: 1px;
+	margin: 16px;
+}
+
+.data {
+	font-size: 1em;
+	color: #4b5d6d;
+	margin: 6px 0px;
+}

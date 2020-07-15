@@ -1,0 +1,41 @@
+.container {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.header {
+	margin: 16px;
+	color: #1d3940;
+	text-align: center;
+	font-size: 1em;
+}
+
+.list {
+	padding: 0px;
+	list-style: none;
+	width: 100%;
+	position: relative;
+	color: #1d3940;
+}
+
+.listItem {
+	display: grid;
+	grid-template-columns: 28px auto auto;
+	align-items: center;
+}
+
+.listItem + .listItem {
+	margin: 16px 0px;
+}
+
+.label {
+	font-weight: bolder;
+}
+
+.data {
+	text-align: right;
+	font-size: 1em;
+	color: #4b5d6d;
+}
