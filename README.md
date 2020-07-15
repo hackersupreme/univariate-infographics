@@ -31,7 +31,7 @@ npm install --save univariate-infographics
 ```jsx
 import React from 'react'
 
-import { PieChart, BarChart, PieSlice, HorizontalBar, VerticalBar, BulletChart } from 'univariate-infographics'
+import { PieChart, BarChart, PieSlice, HorizontalBar, VerticalBar } from 'univariate-infographics'
 
 ```
 
