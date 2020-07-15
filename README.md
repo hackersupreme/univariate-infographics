@@ -235,6 +235,8 @@ className | string | null | Class names to be added to the component
 
 ![Bar Chart with Legend](/BarChartLegend.PNG)
 
+![Bar Chart with Overlay](/BarChartOverlay.PNG)
+
 <br />
 
 ### HorizontalBar
@@ -289,6 +291,10 @@ className | string | null | Class names to be added to the component
 
 #### Examples
 
+![Horizontal Bar with Overlay](/HorizontalBarOverlay.PNG)
+
+![Horizontal Bar with Legend](/HorizontalBarLegend.PNG)
+
 <br />
 
 ### VerticalBar
@@ -339,6 +345,11 @@ gradientDirection | string | null | Set to 'reverse' to reverse the gradient in 
 style | obj | null | Style object passed to the component
 className | string | null | Class names to be added to the component
 
+#### Examples
+
+![Vertical Bar with Legend](/VerticalBarLegend.PNG)
+
+![Vertical Bar with Overlay](/VerticalBarOverlay.PNG)
 
 ## License
 
