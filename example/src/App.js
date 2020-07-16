@@ -1,14 +1,13 @@
 import React from 'react'
 
-import { PieChart, BarChart, PieSlice, HorizontalBar, VerticalBar, Bullet, BulletChart } from 'univariate-infographics'
-import 'univariate-infographics/dist/index.css'
+import { PieChart, BarChart, PieSlice, HorizontalBar, VerticalBar } from 'univariate-infographics'
 
 const data = [
 	{
 		value: 1
 	},
 	{
-		value: 3
+		value: 2
 	},
 	{
 		value: 6
@@ -18,20 +17,27 @@ const data = [
 	},
 	{
 		value: 2
-	},
+	}
 ]
 
 
 const App = () => {
   return (
-  	<main style={{display: 'flex', flexWrap: 'wrap', width: '450px'}}>
+  	<main style={{display: 'flex', flexDirection: 'column'}}>
+  		<PieChart
+	  		data={data}
+	  	/>
+	  	<PieSlice
+	  		data={data}
+	  	/>
 	  	<BarChart 
 	  		data={data}
-	  		width={400}
-	  		height={200}
-	  		barWidth={30}
-			overlay
-	  		style={{fontSize: '12px', textTransform: 'uppercase', letterSpacing: '1px'}}
+	  	/>
+	  	<HorizontalBar 
+	  		data={data}
+	  	/>
+	  	<VerticalBar 
+	  		data={data}
 	  	/>
   	</main>
   )
