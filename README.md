@@ -36,6 +36,8 @@ Here are all the components in the library:
 
 The component library resides in the `src` folder while an example react app that uses the library resides in the `example` folder. The example is a very simple app that displays all the components in a column.
 
+### Data
+
 Each component in the library only requires one attribute to work, the `data` prop. It takes in an array of objects that contains the data the component will render. The objects in the array must have a `value` property that contains a number. They can have any number of other properties as well. These other properties can be used in the legend and/or overlay of a component.
 
 ```
@@ -72,6 +74,8 @@ const data = [
 <PieChart data={data} />
 ```
 
+### Other Props
+
 Each component has a number of other props you can pass to it, including `width`, `height`, and `baseColor`. For full documentation on all the props available for each component and what they do, see the [npm page](https://www.npmjs.com/package/univariate-infographics) for the library.
 
 ```jsx
@@ -82,6 +86,8 @@ Each component has a number of other props you can pass to it, including `width`
   baseColor={'rgb(255,0,0)'}
 />
 ```
+
+### Legend, Title, Overlay
 
 All components have a legend and a title while the `BarChart`, `HorizontalBar`, and `VerticalBar` have an overlay. To include the legend, title, and/or overlay with the component, pass `legend`, `title={"My Title"}`, and/or `overlay` to the component as props.
 
