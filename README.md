@@ -14,13 +14,15 @@
 npm install --save univariate-infographics
 ```
 
-## How To Use Library
+## Usage
 
-[Instructions for use](https://www.npmjs.com/package/univariate-infographics)
+[See NPM Page for Instructions](https://www.npmjs.com/package/univariate-infographics)
 
 ## Components
 
-This is a library of reusable react components that displays data as svg info-graphics. Here are all the components in the library:
+This is a library of reusable react components that displays data as svg info-graphics. They can be displayed as just the graphic or include a title, legend, and/or overlay. This allows for the components to be used as graphs or as design elements.
+
+Here are all the components in the library:
 
 - `<PieChart data={data} />`
 - `<PieSlice data={data} />`
@@ -34,7 +36,11 @@ This is a library of reusable react components that displays data as svg info-gr
 
 The component library resides in the `src` folder while an example react app that uses the library resides in the `example` folder. The example is a very simple app that displays all the components in a column.
 
-Each component in the library only requires one attribute to work, the `data` prop. It takes in an array of objects that contains the data the component will render. The objects in the array must have a `value` property that contains a number. They can have any number of other properties as well.
+This document will first go into how to configure the data for the 
+
+Each component in the library only requires one attribute to work, the `data` prop. It takes in an array of objects that contains the data the component will render. The objects in the array must have a `value` property that contains a number. They can have any number of other properties as well. These other properties can be used in the legend and/or overlay of a component.
+
+The components have a corresponding function that will take the data and calculate the individual parts of a component which are rendered by a sub-component. Those functions return an array of updated objects with all the information they need for the sub-components. For example, the `BarChart` component uses a function called `createBars` to create the individual `Bar` components of the bar chart. 
 
 ```
 const data = [
@@ -70,7 +76,7 @@ const data = [
 <PieChart data={data} />
 ```
 
-All components have a corresponding function that will take the data and calculate the individual parts of a component which are rendered by a sub-component. Those functions return an array of updated objects with all the information they need for the sub-components. For example, the `BarChart` component uses a function called `createBars` to create the individual `Bar` components of the bar chart. 
+
 
 Each component has a number of other props you can pass to it, including `width`, `height`, and `baseColor`. For full documentation on all the props available for each component and what they do, see the [npm page](https://www.npmjs.com/package/univariate-infographics) for the library.
 
@@ -82,6 +88,7 @@ Each component has a number of other props you can pass to it, including `width`
   baseColor={'rgb(255,0,0)'}
 />
 ```
+
 
 
 
