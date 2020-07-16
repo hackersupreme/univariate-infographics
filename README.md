@@ -38,7 +38,7 @@ The component library resides in the `src` folder while an example react app tha
 
 ### Data
 
-Each component in the library only requires one attribute to work, the `data` prop. It takes in an array of objects that contains the data the component will render. The objects in the array must have a `value` property that contains a number. They can have any number of other properties as well. These other properties can be used in the legend and/or overlay of a component.
+Each component in the library only requires one attribute to work, the `data` prop. It takes in an array of objects that contains the data the component will render. The objects in the array must have a `value` property that contains a number. They can have any number of other properties as well. These other properties can be used in the legend and/or overlay of a component (see more below).
 
 ```
 const data = [
