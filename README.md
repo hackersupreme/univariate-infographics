@@ -36,11 +36,7 @@ Here are all the components in the library:
 
 The component library resides in the `src` folder while an example react app that uses the library resides in the `example` folder. The example is a very simple app that displays all the components in a column.
 
-This document will first go into how to configure the data for the 
-
 Each component in the library only requires one attribute to work, the `data` prop. It takes in an array of objects that contains the data the component will render. The objects in the array must have a `value` property that contains a number. They can have any number of other properties as well. These other properties can be used in the legend and/or overlay of a component.
-
-The components have a corresponding function that will take the data and calculate the individual parts of a component which are rendered by a sub-component. Those functions return an array of updated objects with all the information they need for the sub-components. For example, the `BarChart` component uses a function called `createBars` to create the individual `Bar` components of the bar chart. 
 
 ```
 const data = [
@@ -76,11 +72,9 @@ const data = [
 <PieChart data={data} />
 ```
 
-
-
 Each component has a number of other props you can pass to it, including `width`, `height`, and `baseColor`. For full documentation on all the props available for each component and what they do, see the [npm page](https://www.npmjs.com/package/univariate-infographics) for the library.
 
-```
+```jsx
 <PieChart
   data={data}
   width={500}
@@ -89,8 +83,58 @@ Each component has a number of other props you can pass to it, including `width`
 />
 ```
 
+All components have a legend and a title while the `BarChart`, `HorizontalBar`, and `VerticalBar` have an overlay. To include the legend, title, and/or overlay with the component, pass `legend`, `title={"My Title"}`, and/or `overlay` to the component as props.
 
+```jsx
+<PieChart
+  data={data}
+  legend
+/>
 
+<HorizontalBar
+  data={data}
+  overlay
+/>
+
+<PieSlice
+  data={data}
+  title={"My Title"}
+/>
+
+<VerticalBar
+  data={data}
+  legend
+  overlay
+  title={"My Title"}
+/>
+```
+
+You can configure the data type of the legend or overlay by using the `legendDataType` or `overlayDataType` props. The default for them is the `value` property of the objects in the `data` array. To change this, set the `legendDataType` or `overlayDataType` to a string that matches a different property you've defined in the `data` array.
+
+```
+const data = [
+  {
+    value: 1,
+    label: 'A',
+    unit: 'x'
+  },
+  {
+    value: 2,
+    label: 'B',
+    unit: 'x'
+  }
+]
+
+...
+
+<BarChart
+  data={data}
+  legend
+  legendDataType={'label'}
+  overlay
+  overlayDataType={'unit'}
+/>
+```
 
 
 ## License
