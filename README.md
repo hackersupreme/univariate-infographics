@@ -4,7 +4,7 @@
 
 [![NPM](https://img.shields.io/npm/v/univariate-infographics.svg)](https://www.npmjs.com/package/univariate-infographics) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-[npm package](https://github.com/hackersupreme/univariate-infographics)
+[npm package](https://www.npmjs.com/package/univariate-infographics)
 <br />
 [hackersupreme.com](http://hackersupreme.com)
 
@@ -16,7 +16,7 @@ npm install --save univariate-infographics
 
 ## How To Use Library
 
-[Instructions for use](https://github.com/hackersupreme/univariate-infographics)
+[Instructions for use](https://www.npmjs.com/package/univariate-infographics)
 
 ## Components
 
@@ -30,38 +30,26 @@ npm install --save univariate-infographics
 
 ## Documentation
 
-The component library resides in the `src` folder while an example react app resides in the `example` folder. The example react app is a very simple app component that displays all the library components in a column.
+The component library resides in the `src` folder while an example react app that uses the library resides in the `example` folder. The example react app is a very simple app that displays all the components in a column.
 
-The library in the `src` folder has the following folder structure:
+Each component in the library only requires one attribute to work, the `data` prop. It takes in an array of objects that contains the data the component will render. The objects in the array must have a `value` property that contains a number. They can have any number of other properties as well.
 
 ```
-src
-  - index.js
-  - defaults.js
-  - utilities.js
-  - components
-    - BarChart
-      - BarChart.js
-      - createBars.js
-      - barchart.module.css
-    - HorizontalBar
-      - HorizontalBar.js
-      - createBars.js
-      - horizontalbar.module.css
-    - PieChart
-      - PieChart.js
-      - createSlices.js
-      - piechart.module.css
-    - PieSlice
-      - PieSlice.js
-      - createSlice.js
-      - pieslice.module.css
-    - VerticalBar
-      - VerticalBar.js
-      - createBars.js
-      - verticalbar.module.css
-  
+const data = [
+  {
+    value: 1
+  },
+  {
+    value: 2
+  }
+]
+
+...
+
+<PieChart data={data} />
 ```
+
+Each component has a number of other props you can pass to it, including `width`, `height`, and `baseColor`. For full documentation on all the props available for each component, see the [npm page](https://www.npmjs.com/package/univariate-infographics) for the library.
 
 
 
